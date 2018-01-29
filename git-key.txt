@@ -1,0 +1,72 @@
+git-key(1)
+==========
+
+NAME
+----
+git-key - A client for retrieving audit logs for public key records.
+
+
+SYNOPSIS
+--------
+[verse]
+'git key' add    <key>
+'git key' cat    [<repository>] <ref>
+'git key' pull   [<repository>] [<ref>]
+'git key' push   [<repository>] [<ref>]
+'git key' verify [<repository>] [<ref>]
+
+
+DESCRIPTION
+-----------
+blah blah
+
+
+COMMANDS
+--------
+add::
+	blah
+cat::
+	blah
+pull::
+	blah
+push::
+	blah
+verify::
+	blah
+
+
+OPTIONS
+-------
+-q::
+--quiet::
+	Suppress unnecessary output messages on stderr.
+
+-d::
+--debug::
+	Produce even more unnecessary output messages on stderr.
+
+
+OPTIONS FOR verify
+------------------
+--full::
+	Verify the whole tree (slow).
+
+
+EXAMPLE 1. Add key
+------------------
+
+EXAMPLE 2. Extract and verify a key
+-----------------------------------
+
+EXAMPLE 3. Verify a Merkle tree
+-------------------------------
+
+
+AUTHOR
+------
+Written by Mahrud Sayrafi <mahrud@berkeley.edu>.
+
+
+GIT
+---
+Part of the linkgit:git[1] suite
